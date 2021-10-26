@@ -62,6 +62,7 @@ body {
     background: radial-gradient(#aebd90, #0000000d);
     margin: 1%;
     border-radius: 2px;
+    position: relative;
 }
 #header-title{
     transition: 0.2s ease;
@@ -75,8 +76,6 @@ body {
     text-transform:capitalize;
 }
 #login {
-    height: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,6 +139,12 @@ body {
 canvas {
     position: absolute;
     z-index: -1;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 @font-face {
